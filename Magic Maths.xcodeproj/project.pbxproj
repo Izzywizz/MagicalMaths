@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		430481DE1E4CDFA4000658FF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 430481DD1E4CDFA4000658FF /* Images.xcassets */; };
+		430481E11E4CE40D000658FF /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 430481DF1E4CE40D000658FF /* Icon-72.png */; };
+		430481E21E4CE40D000658FF /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 430481E01E4CE40D000658FF /* Icon-72@2x.png */; };
 		D51286DB1695C65E003F3088 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D51286DA1695C65E003F3088 /* UIKit.framework */; };
 		D51286DD1695C65E003F3088 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D51286DC1695C65E003F3088 /* Foundation.framework */; };
 		D51286DF1695C65E003F3088 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D51286DE1695C65E003F3088 /* CoreGraphics.framework */; };
@@ -43,8 +46,6 @@
 		D59578B4169F020900EA033B /* Default-landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = D5957858169F020900EA033B /* Default-landscape~ipad.png */; };
 		D59578B5169F020900EA033B /* Default-portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = D5957859169F020900EA033B /* Default-portrait@2x~ipad.png */; };
 		D59578B6169F020900EA033B /* Default-portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = D595785A169F020900EA033B /* Default-portrait~ipad.png */; };
-		D59578B7169F020900EA033B /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = D595785B169F020900EA033B /* Icon-72.png */; };
-		D59578B8169F020900EA033B /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D595785C169F020900EA033B /* Icon-72@2x.png */; };
 		D59578B9169F020900EA033B /* blackFill.png in Resources */ = {isa = PBXBuildFile; fileRef = D595785F169F020900EA033B /* blackFill.png */; };
 		D59578BA169F020900EA033B /* helpButton.png in Resources */ = {isa = PBXBuildFile; fileRef = D5957860169F020900EA033B /* helpButton.png */; };
 		D59578BB169F020900EA033B /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = D5957861169F020900EA033B /* home.png */; };
@@ -125,6 +126,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		430481DD1E4CDFA4000658FF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		430481DF1E4CE40D000658FF /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		430481E01E4CE40D000658FF /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
 		D51286D61695C65E003F3088 /* Magic Maths.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Magic Maths.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D51286DA1695C65E003F3088 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D51286DC1695C65E003F3088 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -174,8 +178,6 @@
 		D5957858169F020900EA033B /* Default-landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-landscape~ipad.png"; sourceTree = "<group>"; };
 		D5957859169F020900EA033B /* Default-portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-portrait@2x~ipad.png"; sourceTree = "<group>"; };
 		D595785A169F020900EA033B /* Default-portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-portrait~ipad.png"; sourceTree = "<group>"; };
-		D595785B169F020900EA033B /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
-		D595785C169F020900EA033B /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
 		D595785F169F020900EA033B /* blackFill.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackFill.png; sourceTree = "<group>"; };
 		D5957860169F020900EA033B /* helpButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = helpButton.png; sourceTree = "<group>"; };
 		D5957861169F020900EA033B /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
@@ -311,6 +313,7 @@
 				D51287021695C84D003F3088 /* WeightGame */,
 				D5847C3F169B021D00188EFE /* Bouncing Game */,
 				D595790B169F025600EA033B /* HelpScreen */,
+				430481DD1E4CDFA4000658FF /* Images.xcassets */,
 				D51286E11695C65E003F3088 /* Supporting Files */,
 			);
 			path = "Magic Maths";
@@ -414,8 +417,8 @@
 				D5957858169F020900EA033B /* Default-landscape~ipad.png */,
 				D5957859169F020900EA033B /* Default-portrait@2x~ipad.png */,
 				D595785A169F020900EA033B /* Default-portrait~ipad.png */,
-				D595785B169F020900EA033B /* Icon-72.png */,
-				D595785C169F020900EA033B /* Icon-72@2x.png */,
+				430481DF1E4CE40D000658FF /* Icon-72.png */,
+				430481E01E4CE40D000658FF /* Icon-72@2x.png */,
 			);
 			path = Icons;
 			sourceTree = "<group>";
@@ -624,6 +627,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D51286E51695C65E003F3088 /* InfoPlist.strings in Resources */,
+				430481DE1E4CDFA4000658FF /* Images.xcassets in Resources */,
 				D51286ED1695C65E003F3088 /* Default.png in Resources */,
 				D51286EF1695C65E003F3088 /* Default@2x.png in Resources */,
 				D51286F11695C65E003F3088 /* Default-568h@2x.png in Resources */,
@@ -645,8 +649,6 @@
 				D59578B4169F020900EA033B /* Default-landscape~ipad.png in Resources */,
 				D59578B5169F020900EA033B /* Default-portrait@2x~ipad.png in Resources */,
 				D59578B6169F020900EA033B /* Default-portrait~ipad.png in Resources */,
-				D59578B7169F020900EA033B /* Icon-72.png in Resources */,
-				D59578B8169F020900EA033B /* Icon-72@2x.png in Resources */,
 				D59578B9169F020900EA033B /* blackFill.png in Resources */,
 				D59578BA169F020900EA033B /* helpButton.png in Resources */,
 				D59578BB169F020900EA033B /* home.png in Resources */,
@@ -671,6 +673,7 @@
 				D59578CE169F020900EA033B /* menuBox@2x.png in Resources */,
 				D59578CF169F020900EA033B /* pauseButton@2x.png in Resources */,
 				D59578D0169F020900EA033B /* playArrow@2x.png in Resources */,
+				430481E11E4CE40D000658FF /* Icon-72.png in Resources */,
 				D59578D1169F020900EA033B /* playArrowDown@2x.png in Resources */,
 				D59578D2169F020900EA033B /* playButton@2x.png in Resources */,
 				D59578D3169F020900EA033B /* quitButton@2x.png in Resources */,
@@ -705,6 +708,7 @@
 				D59578F0169F020900EA033B /* weight11@2x.png in Resources */,
 				D59578F1169F020900EA033B /* weight12@2x.png in Resources */,
 				D59578F2169F020900EA033B /* weight13@2x.png in Resources */,
+				430481E21E4CE40D000658FF /* Icon-72@2x.png in Resources */,
 				D59578F3169F020900EA033B /* weight14@2x.png in Resources */,
 				D59578F4169F020900EA033B /* weight15@2x.png in Resources */,
 				D59578F5169F020900EA033B /* weight16@2x.png in Resources */,
@@ -855,6 +859,7 @@
 		D51286FB1695C65E003F3088 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = VZ2738TJ98;
@@ -874,6 +879,7 @@
 		D51286FC1695C65E003F3088 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = VZ2738TJ98;
