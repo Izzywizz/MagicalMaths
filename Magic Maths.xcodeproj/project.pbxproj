@@ -867,7 +867,7 @@
 				GCC_PREFIX_HEADER = "Magic Maths/Magic Maths-Prefix.pch";
 				INFOPLIST_FILE = "Magic Maths/Magic Maths-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_BUNDLE_IDENTIFIER = VZ2738TJ98.MathsApp;
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.izzyali.MagicalMaths;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "6915CCE4-FC78-4F57-86BA-DCE82C51C559";
 				TARGETED_DEVICE_FAMILY = 2;
@@ -887,7 +887,7 @@
 				GCC_PREFIX_HEADER = "Magic Maths/Magic Maths-Prefix.pch";
 				INFOPLIST_FILE = "Magic Maths/Magic Maths-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_BUNDLE_IDENTIFIER = VZ2738TJ98.MathsApp;
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.izzyali.MagicalMaths;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "8696C2F1-557E-4FE3-B7EE-D80FAFED3E6F";
